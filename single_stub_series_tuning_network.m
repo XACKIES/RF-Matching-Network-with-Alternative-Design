@@ -54,9 +54,9 @@ fprintf(1, '\nSolution #%d\n', k );
 fprintf(1, ' Distance of the stub: d/lambda = %g\n', norm_d(k) );
 fprintf(1, ' d= %g\n', d(k) );
 fprintf(1, ' Short circuit: ls/lambda = %g\n', norm_ls(k) );
-fprintf(1, ' ls/lambda = %g\n', ls(k) );
+fprintf(1, ' ls = %g\n', ls(k) );
 fprintf(1, ' Open circuit: lo/lambda = %g\n', norm_lo(k) );
-fprintf(1, ' lo/lambda = %g\n', lo(k) );
+fprintf(1, ' lo = %g\n', lo(k) );
 
 end
 
